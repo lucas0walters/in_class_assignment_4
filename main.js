@@ -1,4 +1,4 @@
-import { getPosts } from "./api";
+import { getPosts } from "./api.js";
 
 async function displayPosts() {
     const container = document.getElementById("postContainer");
